@@ -1,0 +1,113 @@
+LINKEDIN
+Array and Strings
+  Two Sum
+  Valid Number
+  Text Justification
+  Minimum Window Substring
+  Shortest Word Distance
+  Integer to English Words
+  Find the Celebrity
+  Can Place Flowers
+  Isomorphic Strings
+
+Trees and Graphs
+  Binary Tree Level Order Traversal
+  Maximum Depth of Binary Tree
+  Word Ladder
+  Binary Tree Upside Down
+  Number of Islands
+  Lowest Common Ancestor of a Binary Search Tree
+  Lowest Common Ancestor of a Binary Tree
+  Closest Binary Search Tree Value II
+  Find Leaves of Binary Tree
+  Second Minimum Node In a Binary Tree
+
+Recursion and Backtracking
+  Combination Sum
+  Permutations
+  Permutations II
+  Factor Combinations
+  Nested List Weight Sum
+  Nested List Weight Sum II
+
+Heap, Queue, Stack
+  Valid Parentheses
+  Evaluate Reverse Polish Notation
+  Kth Largest Element in an Array
+  Exclusive Time of Functions
+
+Sorting and Searching
+  Search in Rotated Sorted Array
+  Find First and Last Position of Element in Sorted Array
+  Pow(x, n)
+  Merge Intervals
+  Sqrt(x)
+  Random Pick with Weight
+
+Dynamic Programming
+  Maximum Subarray
+  Edit Distance
+  Maximum Product Subarray
+  Paint House
+  Paint House II
+  Partition to K Equal Sum Subsets
+
+
+Design
+  Two Sum III - Data structure design
+  Shortest Word Distance II
+  Serialize and Deserialize Binary Tree
+  Flatten Nested List Iterator
+  Insert Delete GetRandom O(1)
+  All O`one Data Structure
+  Max Stack
+  Design HashMap
+
+
+CLIP is a mobile terminal that allow merchants to accepts all cards available (Mastercard, Visa, Amex) and contactless payments like samsung pay and ApplePay. 
+
+How it works
+-First our customers need to download and install the iOS/Android app.
+-Then they need to create a Clip account 
+-Pair the Clip device with their mobile device, and start using it.
+
+Behind the scenes Clip does these steps to charge merchant’s customers
+-Cllip reads card data
+-The point of sale system validates payment information correctness
+-Clip establishes a connections with the merchant’s bank and sends a transaction
+-There is an authorization response which is instantly displayed in the mobile device
+-In 24 hrs merchants receive all the transaction in their personal bank account.
+
+MAYBE Besides the payment device and the mobile App, Clip also offers customers with some Dashboards that enable customers to manage 
+
+
+This sounds not that complex, but behind this process there’re a lot of things going on and since we handle/process very sensitive information we must ensure SECURITY and pass multiple certifications and audits.
+For instance, we are compliant with:
+-Banxico, bank of Mexico
+-Rules and security policies by AMEX, Mastercard and Visa
+-PCI payment card industry compliant, which is the international standard that dictates how to handle and store payment information.
+
+To make all this work, Clip has several teams:
+Fraud team
+Mobile team
+Data team
+DevOps team
+Settlement team
+Payments team
+UX team
+IAM team
+And many more, I don’t know them all.
+
+This last one, is the one we are going to focus.
+Let’s start by describing the team architecture. We have multiple services that talk to each other, so we can say we have a micro service architecture
+
+Service-iam
+Service-authorization
+Service-device-manager
+Service-device-fingerprint
+Service-merchant-bank-account
+Service-merchant-attributes
+Service-merchant-api-keys
+
+
+
